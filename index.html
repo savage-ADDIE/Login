@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER LOGIN</title>
+</head>
+<body>
+    <center>
+        <form action="login.html">
+            <fieldset>
+                <legend>
+                    <h1>STAFF / ADMIN LOGIN</h1>
+                </legend>
+                <table border="10" bordercolor="teal" >
+                     <th colspan="2">
+                        <h2>Enter your Login Credentials</h2>
+                    </th>
+                    <tr>
+                        <td>User Id: </td>
+                        <td>
+                            <input type="number" placeholder="Enter User Id" name="user" required> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Passcode: </td>
+                        <td>
+                            <input type="password" placeholder="Enter Passcode" name="user_pass" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>User Role: </td>
+                        <td>
+                            <select>
+                                <option> ---SELECT---</option>
+                                <option>HEAD OF DEPARTMENT</option>
+                                <option>SCHOOL DIRECTOR</option>
+                                <option>DY. SCHOOL DIRECTOR</option>
+                            </select><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Working Mode: </td>
+                        <td>
+                            <input type="radio" name="xxx" id="" required>
+                            Online
+                            <input type="radio" name="xxx" id="" required>
+                            Offline
+                            <input type="radio" name="xxx" id="" required>
+                            Hybrid
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+
+                            <input type="checkbox" name="yyy" id="" required>
+                            Confirm Login
+                        </td>
+                    </tr>
+                </table><br>    
+                <tr>
+                    <td>
+                        <input type="reset" name="reset" value="RESET">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" value="LOGIN">
+                    </td>
+                </tr>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
